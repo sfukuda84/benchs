@@ -1,0 +1,6 @@
+ファイルシス   サイズ  使用  残り 使用% マウント位置
+/dev/sda1         10G  1.2G  8.9G   12% /
+devtmpfs         843M     0  843M    0% /dev
+tmpfs            849M     0  849M    0% /dev/shm
+tmpfs            849M  8.2M  841M    1% /run
+tmpfs            849M     0  849M    0% /sys/fs/cgroup

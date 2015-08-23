@@ -1,0 +1,10 @@
+
+Disk /dev/sda: 53.7 GB, 53687091200 bytes, 104857600 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O サイズ (最小 / 推奨): 4096 バイト / 4096 バイト
+Disk label type: dos
+ディスク識別子: 0x000917b9
+
+デバイス ブート      始点        終点     ブロック   Id  システム
+/dev/sda1            2048    20969472    10483712+  83  Linux

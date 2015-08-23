@@ -1,0 +1,135 @@
+make all
+make[1]: Entering directory `/opt/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory `/opt/UnixBench'
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x File Write 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Read 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Write 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Read 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Write 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x File Read 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+6 x File Write 1024 bufsize 2000 maxblocks  1 2 3
+
+6 x File Read 1024 bufsize 2000 maxblocks  1 2 3
+
+6 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+6 x File Write 256 bufsize 500 maxblocks  1 2 3
+
+6 x File Read 256 bufsize 500 maxblocks  1 2 3
+
+6 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+6 x File Write 4096 bufsize 8000 maxblocks  1 2 3
+
+6 x File Read 4096 bufsize 8000 maxblocks  1 2 3
+
+6 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: 133-130-53-224: GNU/Linux
+   OS: GNU/Linux -- 3.10.0-229.el7.x86_64 -- #1 SMP Fri Mar 6 11:36:42 UTC 2015
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 1: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 2: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 3: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 4: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 5: Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz (5200.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   18:02:11 up  1:05,  1 user,  load average: 0.01, 4.08, 6.15; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: 土  8月 22 2015 18:02:11 - 18:21:25
+6 CPUs in system; running 1 parallel copy of tests
+
+File Copy 1024 bufsize 2000 maxblocks       1277820.5 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          338561.3 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       3854596.4 KBps  (30.0 s, 2 samples)
+File Read 1024 bufsize 2000 maxblocks       4029005.3 KBps  (30.0 s, 2 samples)
+File Read 256 bufsize 500 maxblocks         1106778.0 KBps  (30.0 s, 2 samples)
+File Read 4096 bufsize 8000 maxblocks      11142349.3 KBps  (30.0 s, 2 samples)
+File Write 1024 bufsize 2000 maxblocks      1936803.3 KBps  (30.0 s, 2 samples)
+File Write 256 bufsize 500 maxblocks         508404.0 KBps  (30.0 s, 2 samples)
+File Write 4096 bufsize 8000 maxblocks      6101025.7 KBps  (30.0 s, 2 samples)
+
+System Benchmarks Partial Index              BASELINE       RESULT    INDEX
+File Copy 1024 bufsize 2000 maxblocks          3960.0    1277820.5   3226.8
+File Copy 256 bufsize 500 maxblocks            1655.0     338561.3   2045.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0    3854596.4   6645.9
+File Read 1024 bufsize 2000 maxblocks             ---    4029005.3      ---
+File Read 256 bufsize 500 maxblocks               ---    1106778.0      ---
+File Read 4096 bufsize 8000 maxblocks             ---   11142349.3      ---
+File Write 1024 bufsize 2000 maxblocks            ---    1936803.3      ---
+File Write 256 bufsize 500 maxblocks              ---     508404.0      ---
+File Write 4096 bufsize 8000 maxblocks            ---    6101025.7      ---
+                                                                   ========
+System Benchmarks Index Score (Partial Only)                         3526.9
+
+------------------------------------------------------------------------
+Benchmark Run: 土  8月 22 2015 18:21:25 - 18:40:43
+6 CPUs in system; running 6 parallel copies of tests
+
+File Copy 1024 bufsize 2000 maxblocks       1456589.3 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          400444.8 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       4444700.8 KBps  (30.0 s, 2 samples)
+File Read 1024 bufsize 2000 maxblocks      12673997.6 KBps  (30.0 s, 2 samples)
+File Read 256 bufsize 500 maxblocks         3455273.3 KBps  (30.0 s, 2 samples)
+File Read 4096 bufsize 8000 maxblocks      42094552.3 KBps  (30.0 s, 2 samples)
+File Write 1024 bufsize 2000 maxblocks      1542845.3 KBps  (30.0 s, 2 samples)
+File Write 256 bufsize 500 maxblocks         398699.5 KBps  (30.0 s, 2 samples)
+File Write 4096 bufsize 8000 maxblocks      4876977.7 KBps  (30.0 s, 2 samples)
+
+System Benchmarks Partial Index              BASELINE       RESULT    INDEX
+File Copy 1024 bufsize 2000 maxblocks          3960.0    1456589.3   3678.3
+File Copy 256 bufsize 500 maxblocks            1655.0     400444.8   2419.6
+File Copy 4096 bufsize 8000 maxblocks          5800.0    4444700.8   7663.3
+File Read 1024 bufsize 2000 maxblocks             ---   12673997.6      ---
+File Read 256 bufsize 500 maxblocks               ---    3455273.3      ---
+File Read 4096 bufsize 8000 maxblocks             ---   42094552.3      ---
+File Write 1024 bufsize 2000 maxblocks            ---    1542845.3      ---
+File Write 256 bufsize 500 maxblocks              ---     398699.5      ---
+File Write 4096 bufsize 8000 maxblocks            ---    4876977.7      ---
+                                                                   ========
+System Benchmarks Index Score (Partial Only)                         4085.7
+

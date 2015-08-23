@@ -1,0 +1,4 @@
+ファイルシス   サイズ  使用  残り 使用% マウント位置
+/dev/xvda1        50G  1.4G   48G    3% /
+devtmpfs         490M   56K  490M    1% /dev
+tmpfs            499M     0  499M    0% /dev/shm

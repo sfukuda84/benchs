@@ -1,0 +1,11 @@
+
+Disk /dev/xvda: 53.7 GB, 53687091200 bytes, 104857600 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O サイズ (最小 / 推奨): 512 バイト / 512 バイト
+Disk label type: gpt
+
+
+#         Start          End    Size  Type            Name
+ 1         4096    104857566     50G  Linux filesyste Linux
+128         2048         4095      1M  BIOS boot parti BIOS Boot Partition

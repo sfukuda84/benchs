@@ -1,0 +1,8 @@
+ファイルシス            サイズ  使用  残り 使用% マウント位置
+/dev/mapper/centos-root    48G  1.3G   47G    3% /
+devtmpfs                  3.9G     0  3.9G    0% /dev
+tmpfs                     3.9G     0  3.9G    0% /dev/shm
+tmpfs                     3.9G   17M  3.9G    1% /run
+tmpfs                     3.9G     0  3.9G    0% /sys/fs/cgroup
+tmpfs                     3.9G   17M  3.9G    1% /etc/machine-id
+/dev/vda1                 497M  120M  378M   25% /boot
